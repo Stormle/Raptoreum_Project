@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Raptoreum - Tokenizing the world!</title>
+	<meta name="description" content="Raptoreum is een POW Cryptocurrency dat functies zoals Tokens, Slimme contracten, en nog veel meer. Open-source, community aangedreven, en Cypherpunk tot de kern!">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/glitch/base.css">
+   <link rel="stylesheet" href="css/glitch/demo1.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+   <!-- script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/glitch/imagesloaded.pkgd.min.js"></script>
+	<script src="js/glitch/demo.js"></script>
+
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- Popup
+	===================================================== -->
+		<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Kies</h2>
+			</div>
+			<div class="modal-body">
+				<p><i class="fas fa-file-alt"></i> Ga naar de een pagina versie <br> <a href="#">Klik hier...</a></p>
+				<p><i class="fas fa-globe"></i> Ga naar de Main website <br> <a href="#">Klik hier...</a></p>
+			</div>
+		</div>
+		</div>
+
+		<script>
+				
+				var modal = document.getElementById("myModal");
+				
+		
+				var span = document.getElementsByClassName("close")[0];
+				
+				
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+				
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}
+			</script>
+
+	<!-- header
+   ================================================== -->
+   <header class="main-header">
+
+	   <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+   </header>
+
+   <!-- main navigation
+   ================================================== -->
+   <nav id="menu-nav-wrap">
+
+   	<h3 class="title-gold"><b style="font-size:2.6rem; border-bottom: 2px solid goldenrod;">Navigatie</b></h3>
+		<ul class="nav-list">
+			<li><a class="smoothscroll title-gold" href="#intro" title="">Home</a></li>
+			<li><a class="smoothscroll title-gold" href="#features" title="">Functies</a></li>
+			<li><a class="smoothscroll title-gold" href="#roadMap" title="">Stappenplan</a></li>
+			<li><a class="smoothscroll title-gold" href="#exchanges" title="">Uitwisselen</a></li>
+			<li><a class="smoothscroll title-gold" href="#download" title="">Downloads</a></li>
+			<li><a class="smoothscroll title-gold" href="#main-footer" title="">Social</a></li>
+			<li><a class="title-gold" href="https://raptoreum.com/files/Raptoreum_Litepaper.pdf" target="_blank">Litepaper</a></li>
+		</ul>
+
+		<!--Language Toggle-->
+		<h3 class="title-gold" style="margin-bottom: unset !important;"><b style="font-size:2rem; border-bottom: 2px solid goldenrod;">Taal</b></h3>
+		<div class="country-selector">
+			<div class="label custom-li">
+				<ul class="cListUl">
+					<li><img width="19px" src="images/eng.png" alt=""></li>
+					<li style="font-size: 12px;">Selecteer Taal</li>
+					<li><i class="fas fa-chevron-down"></i></li>
+				</ul>
+			</div>
+			
+			<!--Language Block-->
+			<a href="/eng.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/eng.png" alt=""></li>
+						<li style="font-size: 12px;">Dutch</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/french.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/french.png" alt=""></li>
+						<li style="font-size: 12px;">French</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/rus.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/rus.png" alt=""></li>
+						<li style="font-size: 12px;">Russian</li>
+					</ul>
+				</div>
+			</a>
+		</div>
+	</nav> <!-- /menu-nav-wrap -->
+
+
+	<!-- main content wrap
+   ================================================== -->
+   <div id="main-content-wrap">
+
+
+		<!-- main content wrap
+   	================================================== -->
+   	<section id="intro" class="demo-1">
+		<div class="glitch">
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+		</div>
+		   <!-- <div class="shadow-overlay"></div> -->
+		   <div class="row intro-content">
+		   	<div class="col-twelve">
+
+				<div class="animate-intro">
+					<img src="images/rap-logo.png" alt="" class="content__title">
+				</div>
+
+				<div class="animate-intro">
+		   			<h3 class="content__title" style="font-size: 24px !important;">Introductie Raptoreum</h3>
+				</div>
+
+				<div class="animate-intro">
+					<span class="content__title" id="intro-para">
+						Real world problemen oplossen met Blockchain Technologie en innovatie is precies waar het bij Raptorem omgaat.<br>
+						Opensource, en een aangedreven community met no ICO, geen pre-mine, en een eerlijke start.
+					</span>
+				</div>
+
+				<div class="animate-intro">
+					<div class="buttons content__title">
+						<a class="button stroke smoothscroll animate-intro" href="#features" title="">Functies</a>
+						<a class="button stroke smoothscroll animate-intro" href="#download" title="">Download</a>
+					</div>
+				</div>
+
+			  	</div> <!-- /twelve -->
+		   </div> <!-- /row -->
+
+		</section> <!-- /intro -->
+
+
+		<!-- features
+   	================================================== -->
+		<section id="features">
+
+			<div class="row section-intro group animate-this">
+	   		<div class="col-twelve with-bottom-line">
+
+	   			<h2 class="" style="color:goldenrod !important">Wat is Raptoreum?</h2>
+
+	   			<p class="lead">A proof of work (POW) Cryptocurrency met een eenvoudig te gebruiken tokensysteem dat niet-fungibele en uniek benoemde tokens creëert. Betrouwbare en geautomatiseerde overdrachten van tokens en munten "on chain" beschikbaar via Slimme contracten
+				<br><br>
+				 Aangedreven community, volgens de principes van Cypherpunk is Raptoreum jouw munt. de munt van je buurman, de munt van iedereen.</p>
+
+	   		</div>
+	   	</div>
+
+			<div class="row features-wrap">
+
+				<div class="features-list block-1-3 block-s-1-2 block-tab-full">
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Specificaties</h3>
+							<p><strong>POW Algoritme:</strong> GhostRider
+								<br>
+								<strong>Block Tijd:</strong> 120 seconden
+								<br>
+								<strong>POW Block Beloning:</strong> 5,000 RTM
+								<br>
+								<strong>Moeilijkeheid retargeting:</strong> DGW
+								<br>
+								<strong>Maximale voorraad:</strong> ~21 miljard
+								<br>
+								<strong>Masternodes:</strong> Ja
+                <br>
+								<strong>Tokens laag:</strong> Ja
+                <br>
+                <strong>Slimme contracten:</strong> op Stappenplan
+                <br>
+                <a href="https://medium.com/@kawwwoin/raptoreum-full-spec-list-ba1d4d48e7a4">Lees meer...</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Anti-FPGA/ASIC</h3>
+
+							<p>ASIC Proof is een buzz term, en we zullen het niet gebruiken. In Plaats daarvan introduceren we Ghostrider ons eigen algoritme dat het niet alleen heel moeilijk maakt om voor te ontwerpen maar het ook kostbaar maakt.<br><br>
+                We zijn 100% toegewijd om zowel ASIC en FPGA buiten het Raptoreum netwerk te houden. Ons algoritme is ontworpen om eenvoudig te kunnen toevoegen en te wijzigen, waardoor we gemakkelijker Fork kunnen toevoegen als het nodig is.<br>
+                <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158">Lees meer...</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Middelen / Tokens</h3>
+
+							<p>Je zult zien dat deze termen vaak worden gebruikt, ze zijn exact hetzelfde. Tokens en subtokens worden eenvoudig gemaakt vanuit je eigen Raptoreum portemonnee.Tokens moeten een unieke naam hebben en er kan er maar slechts één van bestaan. Tokens kosten 500 RTM om te maken, die munten worden gerecycled en terug in het ecosysteem gestopt en word gebruikt als extra beloningen voor Miners en Masternodes.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Slimme contracten</h3>
+
+							<p>Slimme contracten worden geïntroduceerd als de manier om betrouwbare en geautomatiseerde chainoverdrachten van tokens aan te bieden.<br><br> Vanwege de manier waarop ze worden behandeld, hebben ze niet alleen een grotere capiciteit dan de contracten van Ethereum, maar laten ze ook een grotere aantal aan talen toe.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Masternodes</h3>
+
+							<p>Masternodes zijn verantwoordelijk voor het opslaan en uitvoeren van slimme contracten, omdat nodes contracten afhandeld in plaats van toevoegd aan de block vermindert de kans op schaalproblemen, zoals Ethereum heeft ervaren. Bovendien maakt dit ook betere slimme contracten en grotere aantal aan talen aan om te gebruiken om dingen te creëeren.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+          <div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Andere tech</h3>
+
+							<p>51%/dubbele bestedigsbescherming(Prysym), en het verwijderen van halvering en doorgaan met een aangepaste emissieplan en een gelaagd Masternode-pand en beloningssysteem.<br><br>
+                Dit zijn een paar van de vele innovatie plannen die we hebben.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+				</div> <!-- /features-list -->
+
+			</div> <!-- /features-wrap -->
+
+		</section> <!-- /features -->
+
+
+		<!-- infos
+   	================================================== -->
+   	<section id="infos" style="padding:0px !important" class="demo-1">
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content" style="width:100% !important; max-width: 1280px;">
+
+   				<div class="media-wrap">
+   					<div class="media animate-this"  data-animate="fadeInRight" style="text-align: center">
+   						<img src="images/realgr.jpg" alt="" class="content__title">
+   					</div>
+   				</div>
+
+   				<div class="col-six text-part bg-checked">
+
+   					<h2 class="animate-this title-gold" data-animate="fadeInLeft">"GhostRider" POW Algoritme</h2>
+
+					   <p class="animate-this" data-animate="fadeInLeft">Het is een collectie van algoritmes, de x16r en CryptoNight familie's, het cyclust in een willekeurige en niet zo willekeurige patronen die worden gebruikt om consensus te bereiken en te genereren en de transactie van munten op de chain.De x16r-familie van algoritmen zijn min of meer allemaal redelijk rekenintensief (kernklok voor gpu-miners) omdat de wiskunde vrij eenvoudig maar intens is.<br><br> Wat de CryptoNight bijdraagt, is geheugenintensiviteit (mem-klok voor gpu-miners of cache voor cpu-miners) die je kunt beschouwen als de tussentijdse berekeningen op weg naar een resultaat. Geheugen en kernintensieve algoritmen op dit schaalniveau combineren duidelijk de voorkeur aan en daarom  geven ze het aan CPU / GPU-miners boven FPGA's en ASICS
+.</p>
+
+					   <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158" class="button animate-this" data-animate="fadeInRight">Leer meer</a>
+
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content">
+
+	            <div class="media-wrap">
+	            	<div class="media animate-this" data-animate="fadeInLeft" style="text-align: center;">
+						<img src="images/kawwreal.jpg" class="content__title" alt="">
+	            	</div>
+	   			</div>
+
+	   			<div class="col-six text-part">
+
+   					<h2 class="animate-this title-gold" data-animate="fadeInRight">Middelen / Tokens + Slimme contracten.</h2>
+
+   					<p class="animate-this" data-animate="fadeInRight">Het toevoegen van slimme contracten mogelijkheden aan het tokensysteem op de meest basic level zorgt voor betrouwbare en geautomatiseerde overdrachten van niet alleen coins/munten, maar ook tokens zelf.
+           Dit is niet alleen een stuk efficiënter en veiliger dan het vertrouwen van een derde persoon (middleman) of direct persoon naar persoon, het laat ook DAPP ontwikkelaars makkelijk bij te komen bij het tokenssysteem.<br><br> De Real world praktijkgevallen zijn eindeloos voor deze combinatie en het gebruiksgemak van het tokenssysteem zorgt voor veel fijnere acceptatie door de gebruiker, deelname en veiligheid in combinatie met Ethereum	ERC-20.<br>
+            Bovendien kan je met de tokens berichten uitzenden naar houders,winstmakers, en staat stemmen toe.</p>
+
+   					<a href="https://medium.com/@kawwwoin/raptoreum-and-cannabis-beer-a-use-case-scenario-a1cb67409674" class="button animate-this" data-animate="fadeInRight">Gebruik geval voorbeeld</a>
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   	</section> <!-- infos -->
+
+	   <!--RoadMap-->
+		  <section id="roadMap" class="timeline">
+				<div class="section-intro">
+					<h2 class="" style="color:goldenrod !important">Stappenplan</h2>
+				</div>
+			<ul style="margin: 0 !important;">
+			  <li>
+				<div>
+				  <time class="title-gold">Jan. 2019</time> <strong>Testnet Stage 1 (Nu nog bezig):</strong> Dit is puur voor de gezelligheid voor de community en voor het introduceren van tokensystems. RTM Litepapier vrijlating.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">April 2019</time> <strong>Testnet Stage 2:</strong> GhostRider wordt geïntroduceerd en gaat onder zwaar testing. Ghostrider whitepapier word vrijgelaten.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">Juni 2019</time> <strong>Testnet Stage 3:</strong> Prysm (ons 51%/dubbele besteed defend system) word vrijgelaten samen met een aangepaste emissieschema en gelaagd Masternode pand en beloningen
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">Augustus 2019</time> Mainnet lanceert! Prysm whitepaper word nog vrijgelaten.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">Juli 2020</time> <strong>Slimme contracten:</strong> Deze datum word waarschijnlijk nog verandered, ligt nog aan hoe ons team groeit. Contracten kunnen binnen 2 maanden na mainnet gebeuren of na een jaar pas.
+				</div>
+			  </li>
+			</ul>
+		  </section>
+
+	  <script>
+		(function() {
+
+		'use strict';
+
+		// define variables
+		var items = document.querySelectorAll(".timeline li");
+		function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+		rect.top >= 0 &&
+		rect.left >= 0 &&
+		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+		}
+
+		function callbackFunc() {
+		for (var i = 0; i < items.length; i++) {
+		if (isElementInViewport(items[i])) {
+		items[i].classList.add("in-view");
+		}
+		}
+		}
+
+		// listen for events
+		window.addEventListener("load", callbackFunc);
+		window.addEventListener("resize", callbackFunc);
+		window.addEventListener("scroll", callbackFunc);
+
+		})();
+	  </script>
+
+	<!--Exchanges-->
+	<section id="exchanges">
+		<div class="section-intro">
+			<h2 class="" style="color:goldenrod !important">Uitwisselen</h2>
+		</div>
+		<div class="exchanges-wrapper">
+				<h1 style="text-align:center">Komt binnenkortTM<br><br> (veilige OTC is beschikbaar via ons bot in Discord voor beide coins en tokens.)</h1>
+		</div>
+	</section>
+
+	   <!-- download
+   	================================================== -->
+   	<section id="download">
+
+	   	<div class="overlay"></div>
+
+	   	<div class="row download-content" >
+	   		<div class="">
+					<div class="text-part">
+						<h2>Downloads/Portemonnee</h2>
+					</div>
+					<div class="team-first">
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/linux.png" alt="">
+									</div>
+									<p class="">Linux (testnet 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">Download>></a></p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/mac.png" alt="">
+									</div>
+									<p class="">Mac (nog niet )</p>
+									<p class="role title-gold">nog niet beschikbaar</p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/windows.png" alt="">
+									</div>
+									<p class="">Windows (testnet 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">Download>></a></p>
+								</div>
+							</div>
+						</div>
+
+	   		</div>
+	   	</div>
+	   </section> <!-- /download -->
+
+	   <!--Team
+	<section id="team">
+			<div class="section-intro">
+				<h2 class="" style="color:goldenrod !important">Team</h2>
+			</div>
+			<div class="team-first">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="team-second">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="team-third">
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+			</div> -->
+
+		</section>
+
+   </div> --> <!-- /main-content-wrap -->
+
+
+   <!-- footer
+	================================================== -->
+	<footer id="main-footer">
+
+   	<div class="footer-social-wrap">
+   		<div class="row">
+
+	         <ul class="footer-social-list">
+	            <li><a href="https://bitcointalk.org/index.php?topic=5065848">
+					<i class="fab fa-bitcoin"></i>
+				</a></li>
+				<li><a href="https://www.reddit.com/r/raptoreum/">
+					<i class="fab fa-reddit"></i>
+				</a></li>
+	            <li><a href="https://twitter.com/raptoreum">
+					<i class="fab fa-twitter"></i>
+				</a></li>
+	            <li><a href="https://medium.com/@kawwwoin">
+					<i class="fab fa-medium"></i>
+				</a></li>
+				<li><a href="https://t.me/raptoreum">
+					<i class="fab fa-telegram"></i>
+				</a></li>
+				<li><a href="https://discord.gg/2T8xG7e">
+					<i class="fab fa-discord"></i>
+	            </a></li>
+	            <li><a href="#">
+					<i class="fab fa-github-square"></i>
+	            </a></li>
+	         </ul>
+
+			</div>
+   	</div> <!-- /footer-social-wrap -->
+
+	   <div class="footer-bottom">
+
+	   	<div class="copyright">
+		     	<span class="title-gold">© Copyright Raptoreum 2019.</span> <span class="title-gold">Ontworpen door <a class="title-gold" target="-" href="https://cryptowhatnow.com">CryptoWhatNow Team</a></span>
+		   </div>
+   	</div>
+
+   </footer>
+
+   <div id="go-top">
+		<a class="smoothscroll" title="Back to Top" href="#top"><i class="fas fa-arrow-up"></i></a>
+	</div>
+
+   <!-- preloader
+   ================================================== -->
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
