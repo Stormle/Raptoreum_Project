@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Raptoreum - Tokenizam lumea!</title>
+	<meta name="description" content="
+Raptoreum este o criptocurrenta POW care prezintă active, contracte inteligente și multe altele. Comunitate Open-sourceși Cypherpunk to the core!">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/glitch/base.css">
+   <link rel="stylesheet" href="css/glitch/demo1.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+   <!-- script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/glitch/imagesloaded.pkgd.min.js"></script>
+	<script src="js/glitch/demo.js"></script>
+
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- Popup
+	===================================================== -->
+		<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Choose</h2>
+			</div>
+			<div class="modal-body">
+				<p><i class="fas fa-file-alt"></i>Mergi la versiunea de o pagina <br> <a href="#">Click here...</a></p>
+				<p><i class="fas fa-globe"></i> Mergi la website-ul original <br> <a href="#">Click here...</a></p>
+			</div>
+		</div>
+		</div>
+
+		<script>
+				
+				var modal = document.getElementById("myModal");
+				
+		
+				var span = document.getElementsByClassName("close")[0];
+				
+				
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+				
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}
+			</script>
+
+	<!-- header
+   ================================================== -->
+   <header class="main-header">
+
+	   <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+   </header>
+
+   <!-- main navigation
+   ================================================== -->
+   <nav id="menu-nav-wrap">
+
+   	<h3 class="title-gold"><b style="font-size:2.6rem; border-bottom: 2px solid goldenrod;">Navigation</b></h3>
+		<ul class="nav-list">
+			<li><a class="smoothscroll title-gold" href="#intro" title="">Home</a></li>
+			<li><a class="smoothscroll title-gold" href="#features" title="">Features</a></li>
+			<li><a class="smoothscroll title-gold" href="#roadMap" title="">RoadMap</a></li>
+			<li><a class="smoothscroll title-gold" href="#exchanges" title="">Exchanges</a></li>
+			<li><a class="smoothscroll title-gold" href="#download" title="">Downloads</a></li>
+			<li><a class="smoothscroll title-gold" href="#main-footer" title="">Social</a></li>
+			<li><a class="title-gold" href="https://raptoreum.com/files/Raptoreum_Litepaper.pdf" target="_blank">Litepaper</a></li>
+		</ul>
+
+		<!--Language Toggle-->
+		<h3 class="title-gold" style="margin-bottom: unset !important;"><b style="font-size:2rem; border-bottom: 2px solid goldenrod;">Language</b></h3>
+		<div class="country-selector">
+			<div class="label custom-li">
+				<ul class="cListUl">
+					<li><img width="19px" src="images/eng.png" alt=""></li>
+					<li style="font-size: 12px;">Select languages</li>
+					<li><i class="fas fa-chevron-down"></i></li>
+				</ul>
+			</div>
+			
+			<!--Language Block-->
+			<a href="/eng.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/eng.png" alt=""></li>
+						<li style="font-size: 12px;">Engleza</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/french.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/french.png" alt=""></li>
+						<li style="font-size: 12px;">Franceza</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/rus.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/rus.png" alt=""></li>
+						<li style="font-size: 12px;">Rusa</li>
+					</ul>
+				</div>
+			</a>
+		</div>
+	</nav> <!-- /menu-nav-wrap -->
+
+
+	<!-- main content wrap
+   ================================================== -->
+   <div id="main-content-wrap">
+
+
+		<!-- main content wrap
+   	================================================== -->
+   	<section id="intro" class="demo-1">
+		<div class="glitch">
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+		</div>
+		   <!-- <div class="shadow-overlay"></div> -->
+		   <div class="row intro-content">
+		   	<div class="col-twelve">
+
+				<div class="animate-intro">
+					<img src="images/rap-logo.png" alt="" class="content__title">
+				</div>
+
+				<div class="animate-intro">
+		   			<h3 class="content__title" style="font-size: 24px !important;">Introduere Raptoreum</h3>
+				</div>
+
+				<div class="animate-intro">
+					<span class="content__title" id="intro-para">
+						Rezolvam probleme reale ale lumii prin tehnologii Blockchain si inovatie. Acesta este Raptoreum.<br>
+						Comunitate Open-source fara ICO fara pre-minat si o lansare corecta. 
+					</span>
+				</div>
+
+				<div class="animate-intro">
+					<div class="buttons content__title">
+						<a class="button stroke smoothscroll animate-intro" href="#features" title="">Features</a>
+						<a class="button stroke smoothscroll animate-intro" href="#download" title="">Download</a>
+					</div>
+				</div>
+
+			  	</div> <!-- /twelve -->
+		   </div> <!-- /row -->
+
+		</section> <!-- /intro -->
+
+
+		<!-- features
+   	================================================== -->
+		<section id="features">
+
+			<div class="row section-intro group animate-this">
+	   		<div class="col-twelve with-bottom-line">
+
+	   			<h2 class="" style="color:goldenrod !important">Ce este Raptoreum?</h2>
+
+	   			<p class="lead">Proof of work (POW) Cryptocurenta ofera un sistem de active usor de folosit care creeaza active non-fungibile si active unice.Transferuri automate si fara incredere a activelor si monedelor "on chain" disponibile prin contracte inteligente.
+				<br><br>
+				 Condusa de comunitate,de baza si care adera la principiile Cypherpunk,Raptoreum este ,moneda ta, a vecinului,a tuturor.</p>
+
+	   		</div>
+	   	</div>
+
+			<div class="row features-wrap">
+
+				<div class="features-list block-1-3 block-s-1-2 block-tab-full">
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Specifications</h3>
+							<p><strong>Algoritm POW:</strong> GhostRider
+								<br>
+								<strong>Timp Block:</strong> 120 secunde
+								<br>
+								<strong>Recompensa Block POW:</strong> 5,000 RTM
+								<br>
+								<strong>Dificultate in Retintire:</strong> DGW
+								<br>
+								<strong>Supply maxim:</strong> ~21 miliare
+								<br>
+								<strong>Masternoduri:</strong> Da
+                <br>
+								<strong>Layere de tip Activ:</strong> Da
+                <br>
+                <strong>Smart Contracts:</strong> On Roadmap
+                <br>
+                <a href="https://medium.com/@kawwwoin/raptoreum-full-spec-list-ba1d4d48e7a4">Read more....</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Anti-FPGA/ASIC</h3>
+
+							<p>ASIC Proof este un termen buzz și nu îl vom folosi. În schimb, introducem GhostRider propriul nostru algoritm care nu numai că face foarte dificil de proiectat, dar îl face și costisitor
+.<br><br>
+                Suntem 100% angajați să păstrăm atât ASIC, cât și FPGA în afara rețelei Raptoreum. Algoritmul nostru este conceput pentru a fi ușor adăugat și schimbat, permițându-ne să adaptam codul mai ușor dacă trebuie.<br>
+                <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158">Read more....</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Assets-uri / Token-uri</h3>
+
+							<p>Veți vedea acești termeni folosiți desei sunt unul în același lucru. Activele și sub-activele vor fi create cu ușurință din portofelul Raptoreum. Activele trebuie să fie numite în mod unic și doar una dintre ele poate exista. <br> <br> Activele costă 500 RTM pentru a fi create, acele monede sunt reciclate și introduse înapoi în ecosistem ca recompense suplimentare pentru mineri și Masternodes.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Contracte inteligente</h3>
+
+							<p> Contractele inteligente sunt introduse ca modalitatea de a asigura încredere și automatizarea transferului de active / jetoane în lanț. <br> <br> Datorită modului în care sunt gestionate, acestea nu vor avea doar o dimensiune mai mare decât contractele Ethereum, ci vor permite și o varietate mai mare de limbi în scrierea lor.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Masternodes</h3>
+
+							<p>Masternodes sunt responsabili pentru stocarea și executarea contractelor inteligente, faptul că nodurile se ocupă de contracte,reduce foarte mult șansele de a reduce probleme, care au fost vazute in cazul Ethereum. În plus, aceasta permite și contracte inteligente mai mari și o varietate mai largă de limbi care pot fi utilizate pentru a le crea.
+
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+          <div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">Other Tech</h3>
+
+							<p> 51% / protecție dublă pentru cheltuieli (Prysm), elimina injumătatirea și merge cu un plan personalizat și un sistem de garanții și recompense Masternode pe niveluri. <br> <br>
+                Acestea sunt doar câteva dintre celelalte caracteristici inovatoare pe care le-am planificat.
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+				</div> <!-- /features-list -->
+
+			</div> <!-- /features-wrap -->
+
+		</section> <!-- /features -->
+
+
+		<!-- infos
+   	================================================== -->
+   	<section id="infos" style="padding:0px !important" class="demo-1">
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content" style="width:100% !important; max-width: 1280px;">
+
+   				<div class="media-wrap">
+   					<div class="media animate-this"  data-animate="fadeInRight" style="text-align: center">
+   						<img src="images/realgr.jpg" alt="" class="content__title">
+   					</div>
+   				</div>
+
+   				<div class="col-six text-part bg-checked">
+
+   					<h2 class="animate-this title-gold" data-animate="fadeInLeft">"GhostRider" POW Algorithm</h2>
+
+					   <p class="animate-this" data-animate="fadeInLeft">Este o colecție de algoritmi, familiile x16r și CryptoNight, ciclate în modele aleatorii,dar nu întâmplătoare, utilizate pentru a obține consensul în generarea în lanț,dar si pentru tranzacția de monede. Familia de algoritmi x16r este mai mult sau mai puțin destul de intensă din punct de vedere computational (ceasul principal pentru mineri gpu), deoarece matematica este destul de simplă, dar intensă. <br> <br> CryptoNight contribuie la intensitatea memoriei (ceas de memorie pentru mineri gpu sau cache pentru mineri cpu), pe care le puteți gândi ca fiind calculele de la mijloc care duc la rezultat.Combinarea memoriei și a algoritmilor de bază intensivă la acest nivel de scară va favoriza clar minerii CPU / GPU peste FPGA și ASICS. </p>
+
+					   <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158" class="button animate-this" data-animate="fadeInRight">Learn More</a>
+
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content">
+
+	            <div class="media-wrap">
+	            	<div class="media animate-this" data-animate="fadeInLeft" style="text-align: center;">
+						<img src="images/kawwreal.jpg" class="content__title" alt="">
+	            	</div>
+	   			</div>
+
+	   			<div class="col-six text-part">
+
+   					<h2 class="animate-this title-gold" data-animate="fadeInRight">Assets / Tokens + Smart Contracts.</h2>
+
+   					<p class="animate-this" data-animate="fadeInRight">     Adăugarea capabilităților inteligente ale contractului la sistemul de active la nivelul cel mai de bază permite transferuri sigure și automatizate ale monedelor,nu doar ale activelor.
+            Acest lucru este nu numai mai eficient și mai sigur decat atunci când are încredere într-o a treia persoană sau o persoană directă, dar totodata permite și dezvoltatorilor DAPP să utilizeze cu ușurință platforma de active. <br> <br> Cazurile de utilizare din lumea reală sunt interminabile pentru această combinație și ușurința de utilizare a sistemului de active face adoptarea, participarea și siguranța la un nivel mult mai inalt pentru  utilizatorul final. Aceste elemente să fie mult mai bune în comparație cu monede precum Ethereums ERC-20. <br>
+            În plus, jetoanele vă permit, de asemenea, să difuzați mesaje către deținător, să plătiți dividende și să permiteți votarea. </p>
+
+   					<a href="https://medium.com/@kawwwoin/raptoreum-and-cannabis-beer-a-use-case-scenario-a1cb67409674" class="button animate-this" data-animate="fadeInRight">Use Case Example</a>
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   	</section> <!-- infos -->
+
+	   <!--RoadMap-->
+		  <section id="roadMap" class="timeline">
+				<div class="section-intro">
+					<h2 class="" style="color:goldenrod !important">RoadMap</h2>
+				</div>
+			<ul style="margin: 0 !important;">
+			  <li>
+				<div>
+				  <time class="title-gold">Jan. 2019</time> <strong>Testnet Stage 1 (currently running):</strong> Este vorba în mare parte de distracție pentru comunitate și de introducerea celor care nu sunt familiarizați cu sistemul de active. Comunicare RTM Litepaper.
+
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">April 2019</time> <strong>Testnet Stage 2:</strong> 
+GhostRider va fi introdus și va fi supus unor testări ample. Cartea albă GhostRider va fi lansată.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">June 2019</time> <strong>Testnet Stage 3:</strong> 
+Prysm (sistemul nostru de apărare de 51% / dublă cheltuieli) va fi extins împreună cu programul de emisii personalizate și garanțiile și recompensele Masternode cu niveluri.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">August 2019</time> Lansar Mainnet ! 
+Prysm whitepaper pentru a fi lansat.
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">July 2020</time> <strong>Smart Contracts:</strong> 
+Această dată se va schimba cel mai probabil în funcție de creșterea echipei noastre. Contractele se pot întâmpla la două luni după rețeaua principală sau un an.
+				</div>
+			  </li>
+			</ul>
+		  </section>
+
+	  <script>
+		(function() {
+
+		'use strict';
+
+		// define variables
+		var items = document.querySelectorAll(".timeline li");
+		function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+		rect.top >= 0 &&
+		rect.left >= 0 &&
+		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+		}
+
+		function callbackFunc() {
+		for (var i = 0; i < items.length; i++) {
+		if (isElementInViewport(items[i])) {
+		items[i].classList.add("in-view");
+		}
+		}
+		}
+
+		// listen for events
+		window.addEventListener("load", callbackFunc);
+		window.addEventListener("resize", callbackFunc);
+		window.addEventListener("scroll", callbackFunc);
+
+		})();
+	  </script>
+
+	<!--Exchanges-->
+	<section id="exchanges">
+		<div class="section-intro">
+			<h2 class="" style="color:goldenrod !important">Exchanges</h2>
+		</div>
+		<div class="exchanges-wrapper">
+				<h1 style="text-align:center">In curandTM<br><br> (OTC sigur va fi disponibil prin bot-ul nostru în Discord atât pentru monede, cât și pentru active.)</h1>
+		</div>
+	</section>
+
+	   <!-- download
+   	================================================== -->
+   	<section id="download">
+
+	   	<div class="overlay"></div>
+
+	   	<div class="row download-content" >
+	   		<div class="">
+					<div class="text-part">
+						<h2>Downloaduri/Portofel</h2>
+					</div>
+					<div class="team-first">
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/linux.png" alt="">
+									</div>
+									<p class="">Linux (testnet 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">Download>></a></p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/mac.png" alt="">
+									</div>
+									<p class="">Mac (not yet)</p>
+									<p class="role title-gold">Not Available Yet</p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/windows.png" alt="">
+									</div>
+									<p class="">Windows (testnet 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">Download>></a></p>
+								</div>
+							</div>
+						</div>
+
+	   		</div>
+	   	</div>
+	   </section> <!-- /download -->
+
+	   <!--Team
+	<section id="team">
+			<div class="section-intro">
+				<h2 class="" style="color:goldenrod !important">Team</h2>
+			</div>
+			<div class="team-first">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="team-second">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="team-third">
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+			</div> -->
+
+		</section>
+
+   </div> --> <!-- /main-content-wrap -->
+
+
+   <!-- footer
+	================================================== -->
+	<footer id="main-footer">
+
+   	<div class="footer-social-wrap">
+   		<div class="row">
+
+	         <ul class="footer-social-list">
+	            <li><a href="https://bitcointalk.org/index.php?topic=5065848">
+					<i class="fab fa-bitcoin"></i>
+				</a></li>
+				<li><a href="https://www.reddit.com/r/raptoreum/">
+					<i class="fab fa-reddit"></i>
+				</a></li>
+	            <li><a href="https://twitter.com/raptoreum">
+					<i class="fab fa-twitter"></i>
+				</a></li>
+	            <li><a href="https://medium.com/@kawwwoin">
+					<i class="fab fa-medium"></i>
+				</a></li>
+				<li><a href="https://t.me/raptoreum">
+					<i class="fab fa-telegram"></i>
+				</a></li>
+				<li><a href="https://discord.gg/2T8xG7e">
+					<i class="fab fa-discord"></i>
+	            </a></li>
+	            <li><a href="#">
+					<i class="fab fa-github-square"></i>
+	            </a></li>
+	         </ul>
+
+			</div>
+   	</div> <!-- /footer-social-wrap -->
+
+	   <div class="footer-bottom">
+
+	   	<div class="copyright">
+		     	<span class="title-gold">© Copyright Raptoreum 2019.</span> <span class="title-gold">Designed By <a class="title-gold" target="-" href="https://cryptowhatnow.com">CryptoWhatNow Team</a></span>
+		   </div>
+   	</div>
+
+   </footer>
+
+   <div id="go-top">
+		<a class="smoothscroll" title="Back to Top" href="#top"><i class="fas fa-arrow-up"></i></a>
+	</div>
+
+   <!-- preloader
+   ================================================== -->
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
