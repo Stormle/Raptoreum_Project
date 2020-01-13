@@ -1,0 +1,668 @@
+<!दोस्तीपे हटम्ल >
+<html class="no-js" lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>रप्तोरुम - दुनिया को टोकन देना</title>
+	<meta name="description" content="Raptoreum is a POW Cryptocurrency that features Assets, Smart Contracts, and much more. Open-source, community driven, and Cypherpunk to the core!">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/glitch/base.css">
+   <link rel="stylesheet" href="css/glitch/demo1.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+   <!-- script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/glitch/imagesloaded.pkgd.min.js"></script>
+	<script src="js/glitch/demo.js"></script>
+
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- Popup
+	===================================================== -->
+		<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>चुनें</h2>
+			</div>
+			<div class="modal-body">
+				<p><i class="fas fa-file-alt"></i> एक पेजर संस्करण पर जाएं <br> <a href="#">यहाँ क्लिक करें...</a></p>
+				<p><i class="fas fa-globe"></i> मुख्य वेबसाइट पर जाएं <br> <a href="#">यहाँ क्लिक करें...</a></p>
+			</div>
+		</div>
+		</div>
+
+		<script>
+				
+				var मोडल = डॉक्यूमेंट.गेटेलेमेंटस्बीयड़ ("myModal");
+				
+		
+				var सपं = डॉक्यूमेंट. गेटेलेमेंटस्बीक्लॉस्नमे("close")[0];
+				
+				
+				सपं.ओंक्लिक = function() {
+					मोडल.स्टाइल.डिस्प्ले= "none";
+				}
+				
+				विंडो.ओंक्लिक = function(इवेंट) {
+					if (इवेंट.टारगेट == मोडल) {
+						मोडल.स्टाइल.सदिसप्लाय = "none";
+					}
+				}
+			</script>
+
+	<!-- header
+   ================================================== -->
+   <header class="main-header">
+
+	   <a class="menu-toggle" href="#"><span>मेन्यू</span></a>
+
+   </header>
+
+   <!-- main navigation
+   ================================================== -->
+   <nav id="menu-nav-wrap">
+
+   	<h3 class="title-gold"><b style="font-size:2.6rem; border-bottom: 2px solid goldenrod;">नेविगेशन</b></h3>
+		<ul class="nav-list">
+			<li><a class="smoothscroll title-gold" href="#intro" title="">होम</a></li>
+			<li><a class="smoothscroll title-gold" href="#features" title="">फीचर्स</a></li>
+			<li><a class="smoothscroll title-gold" href="#roadMap" title="">रोडमैप</a></li>
+			<li><a class="smoothscroll title-gold" href="#exchanges" title="">एक्सचैंजेस</a></li>
+			<li><a class="smoothscroll title-gold" href="#download" title="">डौन्लोडस</a></li>
+			<li><a class="smoothscroll title-gold" href="#main-footer" title="">सोशल</a></li>
+			<li><a class="title-gold" href="https://raptoreum.com/files/Raptoreum_Litepaper.pdf" target="_blank">लितपपर</a></li>
+		</ul>
+
+		<!--Language Toggle-->
+		<h3 class="title-gold" style="margin-bottom: unset !important;"><b style="font-size:2rem; border-bottom: 2px solid goldenrod;">Language</b></h3>
+		<div class="country-selector">
+			<div class="label custom-li">
+				<ul class="cListUl">
+					<li><img width="19px" src="images/eng.png" alt=""></li>
+					<li style="font-size: 12px;">भाषाओं का चयन करें</li>
+					<li><i class="fas fa-chevron-down"></i></li>
+				</ul>
+			</div>
+			
+			<!--Language Block-->
+			<a href="/eng.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/eng.png" alt=""></li>
+						<li style="font-size: 12px;">अंग्रेज़ी</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/french.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/french.png" alt=""></li>
+						<li style="font-size: 12px;">फ्रेंच</li>
+					</ul>
+				</div>
+			</a>
+
+			<!--Language Block-->
+			<a href="/rus.html">
+				<div class="label custom-li">
+					<ul class="cListUl lang">
+						<li><img width="19px" src="images/rus.png" alt=""></li>
+						<li style="font-size: 12px;">रूसी</li>
+					</ul>
+				</div>
+			</a>
+		</div>
+	</nav> <!-- /menu-nav-wrap -->
+
+
+	<!-- main content wrap
+   ================================================== -->
+   <div id="main-content-wrap">
+
+
+		<!-- main content wrap
+   	================================================== -->
+   	<section id="intro" class="demo-1">
+		<div class="glitch">
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+		</div>
+		   <!-- <div class="shadow-overlay"></div> -->
+		   <div class="row intro-content">
+		   	<div class="col-twelve">
+
+				<div class="animate-intro">
+					<img src="images/rap-logo.png" alt="" class="content__title">
+				</div>
+
+				<div class="animate-intro">
+		   			<h3 class="content__title" style="font-size: 24px !important;">प्रस्तुत है रप्तोरुम</h3>
+				</div>
+
+				<div class="animate-intro">
+					<span class="content__title" id="intro-para">
+						ब्लॉकचेन प्रौद्योगिकी और नवाचार के माध्यम से वास्तविक दुनिया के मुद्दों को सुलझाने के बारे में रैप्टरम क्या है<br>
+						ओपनसोर्स, और बिना किसी ICO के संचालित समुदाय,  बिना किसीपूर्व-खान, और एक उचित लॉन्च के साथ संचालित होता है।
+					</span>
+				</div>
+
+				<div class="animate-intro">
+					<div class="buttons content__title">
+						<a class="button stroke smoothscroll animate-intro" href="#features" title="">Features</a>
+						<a class="button stroke smoothscroll animate-intro" href="#download" title="">Download</a>
+					</div>
+				</div>
+
+			  	</div> <!-- /twelve -->
+		   </div> <!-- /row -->
+
+		</section> <!-- /intro -->
+
+
+		<!-- features
+   	================================================== -->
+		<section id="features">
+
+			<div class="row section-intro group animate-this">
+	   		<div class="col-twelve with-bottom-line">
+
+	   			<h2 class="" style="color:goldenrod !important">क्या है रैप्टरम?</h2>
+
+	   			<p class="lead">कार्य का प्रमाण  (POW) क्रिप्टोक्यूरेंसी एक एसेट सिस्टम का उपयोग करने की आसान विशेषता है जो गैर-कवक और विशिष्ट नाम वाली संपत्ति बनाता है। संपत्ति और सिक्कों के भरोसेमंद और स्वचालित स्थानान्तरण "चेन पर" उपलब्ध वीआईए स्मार्ट अनुबंध।
+				<br><br>
+				 समुदाय चालित, जमीनी स्तर पर, और साइपरपंक सिद्धांतों का पालन करने के लिए, रैप्टरम आपका सिक्का, आपके पड़ोसी का सिक्का, हर किसी का सिक्का है।</p>
+
+	   		</div>
+	   	</div>
+
+			<div class="row features-wrap">
+
+				<div class="features-list block-1-3 block-s-1-2 block-tab-full">
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">विशेष विवरण</h3>
+							<p><strong>(POW) एल्गोरिथम:</strong> घोस्टरीडर
+								<br>
+								<strong>ब्लॉक टाइम:</strong> १२० सेकंड
+								<br>
+								<strong>POW ब्लॉक रिवॉर्ड:</strong> ५,००० RTM
+								<br>
+								<strong>डिफिकल्टी रेटार्गेटिंग :</strong> DGW
+								<br>
+								<strong>मैक्सिमम सप्लाई:</strong> ~२१ बिलियन
+								<br>
+								<strong>मास्टरनोदेस:</strong> हाँ
+                <br>
+								<strong>एसेट लेयर:</strong> हाँ
+                <br>
+                <strong>स्मार्ट कॉन्ट्रैक्ट्स: </strong> रोडमैप पर
+                <br>
+                <a href="https://medium.com/@kawwwoin/raptoreum-full-spec-list-ba1d4d48e7a4">अधिक पढ़ें....</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">विरोधी-FPGA/ASIC</h3>
+
+							<p>ASIC प्रूफ एक buzz टर्म है, और हम इसका उपयोग नहीं करेंगे। इसके बजाय हम घोस्टरीडर को हमारे अपने एल्गोरिथ्म को पेश करते हैं जो न केवल डिजाइन करने के लिए बहुत मुश्किल बनाता है बल्कि इसे महंगा भी बनाता है।<br><br>
+				हम ASIC और FPGA दोनों को रैप्टरम नेटवर्क से दूर रखने के लिए 100% प्रतिबद्ध हैं। हमारे एल्गोरिथ्म को आसानी से जोड़ने और बदलने के लिए डिज़ाइन किया गया है, जिससे हमें अधिक आसानी से कांटा करने की अनुमति मिलनी चाहिए।<br>
+                <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158">Read more....</a>
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">संपत्ति / टोकन</h3>
+
+							<p>आप अक्सर इन शब्दों का उपयोग करते हुए देखेंगे, वे उसी में से एक हैं। एसेट्स और सब-एसेट्स आसानी से आपके राप्टोरियम वॉलेट के अंदर से बनाए जाएंगे।आस्तियों का विशिष्ट नाम होना चाहिए और प्रत्येक में से केवल एक ही मौजूद हो सकता है।<br><br> एसेट्स बनाने में 500 आरटीएम खर्च होता है, उन सिक्कों को पुनर्नवीनीकरण किया जाता है और खननकर्ताओं और मास्टोडोड्स के लिए अतिरिक्त पुरस्कार के रूप में पारिस्थितिकी तंत्र में वापस लाया जाता है।
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">स्मार्ट कॉन्ट्रैक्ट</h3>
+
+							<p>स्मार्ट कॉन्ट्रैक्ट को संपत्ति / टोकन के चेन ट्रांसफर पर भरोसेमंद और स्वचालित प्रदान करने के तरीके के रूप में पेश किया जाता है।<br><br> जिस तरह से उन्हें संभाला जाता है, उसके कारण न केवल एथेरियम के अनुबंधों की तुलना में बड़ा अनुमत आकार होगा, बल्कि उनके लेखन में विभिन्न प्रकार की भाषाओं की अनुमति होगी।
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">मास्टरनोदेस</h3>
+
+							<p>मास्टर्नोड्स स्मार्ट कॉन्ट्रैक्ट्स को स्टोर करने और निष्पादित करने के लिए जिम्मेदार हैं, नोड्स कॉन्ट्रैक्ट को संभालने के बजाय उन्हें ब्लॉक में जोड़ते हैं, स्केलिंग मुद्दों की संभावना को काफी कम कर देता है, जैसे एथेरियम अनुभव कर रहा है। इसके अलावा यह बड़े स्मार्ट अनुबंधों और भाषाओं की एक विस्तृत विविधता की अनुमति देता है जो उन्हें बनाने के लिए उपयोग किया जा सकता है।
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+          <div class="bgrid feature animate-this">
+
+					   <div class="feature-content">
+
+              	   	<h3 class="title-gold">अन्य तकनीक</h3>
+
+							<p>५१% / डबल खर्च संरक्षण (Prysm), हटाने को हटाने और एक कस्टम उत्सर्जन योजना के साथ जा रहा है, और एक तीखा मास्टर्नोड संपार्श्विक और इनाम प्रणाली।<br><br>
+					ये हमारे द्वारा नियोजित अन्य नवीन सुविधाओं में से कुछ हैं।
+						   </p>
+
+						</div>
+
+					</div> <!-- /bgrid -->
+
+				</div> <!-- /features-list -->
+
+			</div> <!-- /features-wrap -->
+
+		</section> <!-- /features -->
+
+
+		<!-- infos
+   	================================================== -->
+   	<section id="infos" style="padding:0px !important" class="demo-1">
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content" style="width:100% !important; max-width: 1280px;">
+
+   				<div class="media-wrap">
+   					<div class="media animate-this" डेटा-चेतन ="fadeInRight" style="text-align: center">
+   						<img src="images/realgr.jpg" alt="" class="content__title">
+   					</div>
+   				</div>
+
+   				<div class="col-six text-part bg-checked">
+
+   					<h2 class="animate-this title-gold" डेटा-चेतन ="fadeInLeft">"घोस्टइडर "POW एल्गोरिथम</h2>
+
+					   <p class="animate-this" डेटा-चेतन ="fadeInLeft">यह एल्गोरिदम, x16r और क्रिप्टोकरंसी परिवारों का एक संग्रह है, जो यादृच्छिक और इतने यादृच्छिक पैटर्न में साइकिल चलाते हैं कि वे चेन जेनरेशन और सिक्कों के लेन-देन पर आम सहमति हासिल करने के लिए उपयोग किए जाते हैं। एल्गोरिदम का x16r परिवार कमोबेश सभी कम्प्यूटेशनल इंटेंसिव (जीपीयू माइनर्स के लिए कोर क्लॉक) है क्योंकि गणित काफी सरल लेकिन गहन है।<br><br> क्रिप्टोनिगहत का योगदान स्मृति तीव्रता (सीपीयू खनिकों के लिए जीपीयू खनिक या कैश के लिए मेम घड़ी) है जिसे आप परिणाम के रास्ते पर "बीच में" गणना के रूप में सोच सकते हैं। इस स्तर के स्तर पर स्मृति और व्यापक एल्गोरिदम को निर्धारित करना। FPGAs और ASICS पर स्पष्ट रूप से सीपीयू / GPU खनिक के पक्ष में।</p>
+
+					   <a href="https://medium.com/@kawwwoin/raptoreums-ghostrider-algorithm-explained-93f1f8070158" class="button animate-this" data-animate="fadeInRight">Learn More</a>
+
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   		<div class="info-entry">
+
+   			<div class="half-grey"></div>
+
+   			<div class="row info-entry-content">
+
+	            <div class="media-wrap">
+	            	<div class="media animate-this" डेटा-चेतन ="fadeInLeft" style="text-align: center;">
+						<img src="images/kawwreal.jpg" class="content__title" alt="">
+	            	</div>
+	   			</div>
+
+	   			<div class="col-six text-part">
+
+   					<h2 class="animate-this title-gold" डेटा-चेतन ="fadeInRight">एसेट्स / टोकन + स्मार्ट कॉन्ट्रैक्ट्स।</h2>
+
+   					<p class="animate-this" डेटा-चेतन ="fadeInRight">     सबसे बुनियादी स्तर पर परिसंपत्ति प्रणाली में स्मार्ट अनुबंध क्षमताओं को जोड़ना न केवल सिक्कों बल्कि खुद की संपत्ति के भरोसेमंद और स्वचालित हस्तांतरण के लिए अनुमति देता है।
+			यह न केवल अधिक कुशल और सुरक्षित है, फिर किसी तीसरे व्यक्ति या व्यक्ति को सीधे व्यक्ति पर भरोसा करना, यह डीएपीपी डेवलपर्स को आसानी से संपत्ति मंच का उपयोग करने की अनुमति देता है।<br><br> वास्तविक विश्व उपयोग के मामले इस संयोजन के लिए अंतहीन हैं और एसेट सिस्टम के उपयोग में आसानी एथेरेप्स ईआरसी -२० जैसी किसी चीज के लिए कॉम्प्रिज़न में बेहतर अंत उपयोगकर्ता को अपनाने, भागीदारी और सुरक्षा के लिए बनाती है।<br>
+			टोकन के अलावा आप धारक को संदेश प्रसारित करने, लाभांश का भुगतान करने और मतदान की अनुमति भी दे सकते हैं।</p>
+
+   					<a href="https://medium.com/@kawwwoin/raptoreum-and-cannabis-beer-a-use-case-scenario-a1cb67409674" class="button animate-this" डेटा-चेतन ="fadeInRight">केस उदाहरण का उपयोग करें</a>
+
+   				</div>
+
+   			</div> <!-- /info-entry-content -->
+
+   		</div> <!-- /info-entry -->
+
+   	</section> <!-- infos -->
+
+	   <!--RoadMap-->
+		  <section id="roadMap" class="timeline">
+				<div class="section-intro">
+					<h2 class="" style="color:goldenrod !important">रोडमैप</h2>
+				</div>
+			<ul style="margin: 0 !important;">
+			  <li>
+				<div>
+				  <time class="title-gold">जनवरी 2019</time> <strong>टेस्टनेट स्टेज 1 (अभी चल रही):</strong> यह ज्यादातर समुदाय के लिए मज़ेदार होता है और यह उन लोगों को पेश करता है जो संपत्ति प्रणाली से परिचित नहीं हैं। RTM लाइटपेपर जारी।
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">अप्रैल 2019</time> <strong>टेस्टनेट स्टेज 2:</strong> घोस्ट राइडर को पेश किया जाएगा और व्यापक परीक्षण से गुजरना होगा। भूत सवार श्वेतपत्र जारी किया जाए।
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">जून 2019</time> <strong>टेस्टनेट स्टेज 3:</strong> प्रिसम  (हमारे  ५१% / डबल खर्च डिफेंस सिस्टेन) को कस्टम उत्सर्जन अनुसूची और tiered Masternode संपार्श्विक और पुरस्कार के साथ रोल आउट किया जाएगा।
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">अगस्त 2019</time> मेननेट लॉन्च! प्रिसम  व्हितपपर जारी किया जाना है।
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time class="title-gold">जुलाई 2020</time> <strong>स्मार्ट अनुबंध:</strong> हमारी टीम कैसे बढ़ती है, इस पर निर्भर करते हुए यह तिथि सबसे अधिक बदल जाएगी। अनुबंध मेननेट या एक वर्ष के दो महीने बाद हो सकता है।
+				</div>
+			  </li>
+			</ul>
+		  </section>
+
+	  <script>
+		(function() {
+
+		'use strict';
+
+		// define variables
+		var items = document.querySelectorAll(".timeline li");
+		function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+		rect.top >= 0 &&
+		rect.left >= 0 &&
+		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+		}
+
+		function callbackFunc() {
+		for (var i = 0; i < items.length; i++) {
+		if (isElementInViewport(items[i])) {
+		items[i].classList.add("in-view");
+		}
+		}
+		}
+
+		// listen for events
+		window.addEventListener("load", callbackFunc);
+		window.addEventListener("resize", callbackFunc);
+		window.addEventListener("scroll", callbackFunc);
+
+		})();
+	  </script>
+
+	<!--Exchanges-->
+	<section id="exchanges">
+		<div class="section-intro">
+			<h2 class="" style="color:goldenrod !important">एक्सचेंजों</h2>
+		</div>
+		<div class="exchanges-wrapper">
+				<h1 style="text-align:center">जल्द ही आ रहा है टीटीएम<br><br> (सुरक्षित OTC सिक्कों और एसेट्स दोनों के लिए के जरिए में हमारे बॉट उपलब्ध होगा।)</h1>
+		</div>
+	</section>
+
+	   <!-- download
+   	================================================== -->
+   	<section id="download">
+
+	   	<div class="overlay"></div>
+
+	   	<div class="row download-content" >
+	   		<div class="">
+					<div class="text-part">
+						<h2>डाउनलोड / बटुआ</h2>
+					</div>
+					<div class="team-first">
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/linux.png" alt="">
+									</div>
+									<p class="">लिनक्स (टेस्टनेट 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">डाउनलोड>></a></p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/mac.png" alt="">
+									</div>
+									<p class="">मैक (अभी तक नहीं)</p>
+									<p class="role title-gold">अभी उपलब्ध नहीं है</p>
+								</div>
+							</div>
+							<div class="team-content">
+								<div class="inner-content">
+									<div class="team-img">
+										<img src="images/windows.png" alt="">
+									</div>
+									<p class="">विंडोज (टेस्टनेट 1)</p>
+									<p class="role title-gold"><a href="https://github.com/npq7721/ProjectsReleases/releases/tag/Raptoreum_test">डाउनलोड>></a></p>
+								</div>
+							</div>
+						</div>
+
+	   		</div>
+	   	</div>
+	   </section> <!-- /download -->
+
+	   <!--Team
+	<section id="team">
+			<div class="section-intro">
+				<h2 class="" style="color:goldenrod !important">Team</h2>
+			</div>
+			<div class="team-first">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">Name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="team-second">
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+						<div class="team-img">
+							<img src="images/team.jpg" alt="">
+						</div>
+						<p class="">name</p>
+						<p class="role title-gold">Role played</p>
+						<div class="team-icons">
+							<i class="fab fa-github"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="team-third">
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+				<div class="team-content">
+					<div class="inner-content">
+
+					</div>
+				</div>
+			</div> -->
+
+		</section>
+
+   </div> --> <!-- /main-content-wrap -->
+
+
+   <!-- footer
+	================================================== -->
+	<footer id="main-footer">
+
+   	<div class="footer-social-wrap">
+   		<div class="row">
+
+	         <ul class="footer-social-list">
+	            <li><a href="https://bitcointalk.org/index.php?topic=5065848">
+					<i class="fab fa-bitcoin"></i>
+				</a></li>
+				<li><a href="https://www.reddit.com/r/raptoreum/">
+					<i class="fab fa-reddit"></i>
+				</a></li>
+	            <li><a href="https://twitter.com/raptoreum">
+					<i class="fab fa-twitter"></i>
+				</a></li>
+	            <li><a href="https://medium.com/@kawwwoin">
+					<i class="fab fa-medium"></i>
+				</a></li>
+				<li><a href="https://t.me/raptoreum">
+					<i class="fab fa-telegram"></i>
+				</a></li>
+				<li><a href="https://discord.gg/2T8xG7e">
+					<i class="fab fa-discord"></i>
+	            </a></li>
+	            <li><a href="#">
+					<i class="fab fa-github-square"></i>
+	            </a></li>
+	         </ul>
+
+			</div>
+   	</div> <!-- /footer-social-wrap -->
+
+	   <div class="footer-bottom">
+
+	   	<div class="copyright">
+		     	<span class="title-gold">© कॉपीराइट रैप्टरम २०१९.</span> <span class="title-gold">द्वारा डिज़ाइन किया गया <a class="title-gold" target="-" href="https://cryptowhatnow.com">कैप्टोव्हाटनाउ टीम</a></span>
+		   </div>
+   	</div>
+
+   </footer>
+
+   <div id="go-top">
+		<a class="smoothscroll" title="Back to Top" href="#top"><i class="fas fa-arrow-up"></i></a>
+	</div>
+
+   <!-- preloader
+   ================================================== -->
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
